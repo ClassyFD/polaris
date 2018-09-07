@@ -83,7 +83,7 @@
       "sortingLabel": "Sort by",
       "defaultItemSingular": "item",
       "defaultItemPlural": "items",
-      "showing": "Showing {itemsCount} {resource}",
+      "showing": "Showing {itemsCount - 1} {resource}",
       "selected": "{selectedItemsCount} selected",
       "allItemsSelected": "All {itemsLength}+ {resourceNamePlural} in your store are selected.",
       "selectAllItems": "Select all {itemsLength}+ {resourceNamePlural} in your store",
