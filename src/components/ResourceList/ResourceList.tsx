@@ -138,12 +138,12 @@ export class ResourceList extends React.Component<CombinedProps, State> {
       polaris: {intl},
     } = this.props;
 
-    const itemsCount = items.length - 1;
+    const itemsCount = items.length;
     const resource =
       itemsCount === 1 ? resourceName.singular : resourceName.plural;
 
     return intl.translate('Polaris.ResourceList.showing', {
-      itemsCount,
+      itemsCount: itemsCount - 1,
       resource,
     });
   }
